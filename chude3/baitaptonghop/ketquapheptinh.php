@@ -71,10 +71,10 @@
 			
 			
 			<div style="margin-bottom: 20px;" class="row">
-				<p>
+				<p>Kết quả: 
 					<input style="background: yellow;"   type="text" name="caculate" value="<?php 
 					if($flag==true){
-						echo "Kết quả: " .$n1." ".$caculate." ".$n2. " = ".$result; 
+						echo $n1." ".$caculate." ".$n2. " = ".$result; 
 					} else{
 						echo $result;
 					}
