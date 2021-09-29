@@ -72,7 +72,7 @@
 			
 			<div style="margin-bottom: 20px;" class="row">
 				<p>Kết quả: 
-					<input style="background: yellow;"   type="text" name="caculate" value="<?php 
+					<input style="background: yellow; text-align: center"   type="text" name="caculate" value="<?php 
 					if($flag==true){
 						echo $n1." ".$caculate." ".$n2. " = ".$result; 
 					} else{
