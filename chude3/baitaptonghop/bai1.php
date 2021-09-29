@@ -27,8 +27,12 @@
 				<input style="margin-left: 23px; text-align: center" type="text" name="" placeholder="Hãy nhập chiều dài và rộng" value="<?php 
 						if(is_numeric($_POST['chieurong'])&&is_numeric($_POST['chieudai']))
 						{
-							echo  $_POST['chieurong']*$_POST['chieudai'];}  else {echo "Hãy nhập đúng kí tự số";
-						}  ?>"  readonly=""/><br><br>
+							echo  $_POST['chieurong']*$_POST['chieudai'];
+						}  
+						else {
+							echo "Hãy nhập đúng kí tự số";
+							}  
+					?>"  readonly=""/><br><br>
 			 <center>
 			 		<input style=" text-align: center; background-color: blue;" type="submit" name="tinh" value="Tính" >
 			 </center>
