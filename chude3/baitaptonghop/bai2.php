@@ -44,7 +44,7 @@
 							{
 								echo  ($_POST['csm']-$_POST['csc'])*$_POST['dg'];
 							} 
-							else echo"Hãy nhập đúng kí tự số"  
+							else echo"Hãy nhập đúng kí tự số";
 						?>" readonly=""/>VND<br><br>
 			 <center>
 			 	<input style=" text-align: center; background-color: yellow;" type="submit" name="thanhtoan" value="Thanh toán" >
